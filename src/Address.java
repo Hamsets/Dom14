@@ -8,7 +8,7 @@ public class Address {
     private int house;
     private int building;
     private int flat;
-    Address (int id, String city, String street, int house, int building, int flat){
+    Address (int id, String city, String street, int house, Integer building, Integer flat){
         this.id = id;
         this.city = city;
         this.street = street;
@@ -58,6 +58,6 @@ public class Address {
                 ", street = " + street +", " +
                 ", house = " + house + ", " +
                 ", building = " + building + ", " +
-                ", flat = " + flat +"}";
+                ", flat = " + flat + "}" + "\n";
     }
 }
